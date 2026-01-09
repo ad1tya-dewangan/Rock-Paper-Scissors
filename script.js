@@ -66,31 +66,10 @@ function playRound(humanChoice, computerChoice){
 
 }
 
-//function to play the game of 5 to decide the winner
-function playGame(){
+const button = document.querySelectorAll(".btn");
 
-    for(let i=1; i<=5; i++){
-        const humanSelection = getHumanChoice();
-        const computerSelection = getComputerChoice();
-
-        playRound(humanSelection, computerSelection);
+document.addEventListener("click", e => {
+    if(e.target.classList.contains(".btn")){
+        console.log(e.target.textContent);
     }
-
-    //score section
-    console.log("Final Score:");
-    console.log("You : " + humanScore);
-    console.log("Computer : " + computerScore);
-
-    if(humanScore > computerScore){
-        console.log("Congratulations! You are the Winner.");
-    }
-    else if(computerScore > humanScore){
-        console.log("You lost! Better luck next time.");
-    }
-    else{
-        console.log("Your score tied with computer!");
-    }
-}
-
-//calling the game function
-playGame();
+})
