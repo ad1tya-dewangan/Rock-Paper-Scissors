@@ -141,8 +141,8 @@ newGame.addEventListener("click", () => {
     humanScore = 0;
     computerScore = 0;
     showScore();
-    humanImage.src = "/image/defaultHand-start.png";
-    computerImage.src = "/image/defaultHand-start.png";
+    humanImage.src = "./images/defaultHand-start.png";
+    computerImage.src = "./images/defaultHand-start.png";
     roundResult.textContent = "";
     gameResult.textContent = "";
     enableButtons();
