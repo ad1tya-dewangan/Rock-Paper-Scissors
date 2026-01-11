@@ -52,9 +52,9 @@ const computerImage = document.querySelector(".computerImage");
 
 // a map to decide image choice
 const imageMap = {
-    rock: "/image/rock.png",
-    paper: "/image/paper.png",
-    scissor: "/image/scissor.png"
+    rock: "./images/rock.png",
+    paper: "./images/paper.png",
+    scissor: "./images/scissor.png"
 };
 
 // function to change image on page
