@@ -1,0 +1,119 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("/image/gettyimages-1199971584-612x612.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+body {
+    font-family: 'Patrick Hand', cursive;
+    color: #333; /* softer than pure black */
+}
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.rule {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.names {
+    display: flex;
+    font-size: 40px;
+    justify-content: space-around;
+}
+
+.nm{
+    border: solid;
+    width: 160px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.circle-image {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+#score {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+
+.round-result {
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.game-result {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.rps-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 40px;
+}
+
+.btn {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    border: solid;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+#rock {
+    background-color: #ff0069;
+}
+#paper {
+    background-color: yellow;
+}
+#scissor {
+    background-color: #00d7e5;
+}
+
+.footer-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.newGame-btn {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 23px;
+    border: solid;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: red;
+    border: solid black;
+}

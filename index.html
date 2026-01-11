@@ -4,10 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1>Rock-Papper-Scissor Game</h1>
-    <h2>Play On Console</h2>
+    <h1 class="heading">Rock-Papper-Scissors</h1>
+    <p class="rule">Score 5 first to win the Game !</p>
+
+    <div class="names">
+        <div class="nm">You 🧒🏻</div>
+        <div class="nm">Computer 🤖</div>
+    </div>
+
+    <div class="circle-image">
+        <img class="humanImage" src="/image/defaultHand-start.png" alt="hollow-circle" width="205px" height="auto">
+        <img class="computerImage" src="/image/defaultHand-start.png" alt="hollow-circle" width="205px" height="auto">
+    </div>
+
+    <div id="score">
+        <div class="hScore">Score: 0</div>
+        <div class="cScore">Score: 0</div>
+    </div>
+
+    <div class="round-result"></div>
+    <div class="game-result"></div>
+
+
+    <div class="rps-buttons">
+        <button class="btn" id="rock">Rock</button>
+        <button class="btn" id="paper">Paper</button>
+        <button class="btn" id="scissor">Scissor</button>
+    </div>
+    <!-- <div id="selection">You chose: [----] , Computer chose: [----]</div> -->
+
+    <div class="footer-btn">
+        <button class="newGame-btn">New Game</button>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
